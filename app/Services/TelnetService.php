@@ -180,7 +180,7 @@ class TelnetService
                     break;
                 }
     
-                usleep(20000); // 10ms for responsiveness
+                usleep(20000); // kalau error saat retrieving tambahin aja ini
             }
     
             $output = preg_replace('/\r\n|\r|\n/', "\n", $output);
